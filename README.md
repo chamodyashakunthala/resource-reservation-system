@@ -40,7 +40,7 @@ The organization coordinates shared resources through informal messages and manu
 | Next.js Cache Components disabled | Every page is per-user and must show live availability, so ahead-of-time prerendering adds no value. |
 
 ## Data model
-
+**ER diagram (shareable link):** [View the ER diagram](https://drive.google.com/file/d/19SGQrRI9D5k4E8TtObPZ9R0GVkw0nXzN/view?usp=sharing)
 ```mermaid
 erDiagram
     USERS ||--o{ RESERVATIONS : makes
