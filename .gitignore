@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/generated/prisma
+# Prisma generated client (recreated by `npx prisma generate`)
+/generated/prisma
+
+# Secrets: never commit real env files, but keep the template
+.env
+.env.*
+!.env.example
+
+# Files created by AI-tool setup
+.agents
+.claude
+.cursor
+.windsurf
+.devin
+skills-lock.json
